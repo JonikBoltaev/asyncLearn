@@ -1,4 +1,7 @@
 package ru.jonik.asynclearn.model.colors
 
-class NamedColor {
-}
+data class NamedColor(
+    val id: Long,
+    val name: String,
+    val value: Int
+)
